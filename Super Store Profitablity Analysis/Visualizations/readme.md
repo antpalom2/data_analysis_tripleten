@@ -12,31 +12,31 @@ To translate raw event log data into actionable business insights by identifying
 ## 📊 Key Visualizations & Insights
 
 ### 1. Profits & Losses by Region and Sub-Category
-![Profits & Losses](visualizations/Profits and Losses.png)  
+![Profits & Losses](Visualizations/Profits and Losses.png)  
 **Insight:** Chairs in the East and copiers in the West are highly profitable. Tables and binders are consistent loss-makers and should be reviewed.
 
 ---
 
 ### 2. Top Selling Products by Profit
-![Top Selling Products](visualizations/top selling products.png)  
+![Top Selling Products](Visualizations/top selling products.png)  
 **Insight:** A few standout items generate the bulk of product-level profits. Focusing on these SKUs can maximize margin efficiency.
 
 ---
 
 ### 3. Sub-Categories to Stop & Continue Selling
-![Stop & Continue Selling](visualizations/Subcategories to Stop & Continue Selling.png)  
+![Stop & Continue Selling](Visualizations/Subcategories to Stop & Continue Selling.png)  
 **Insight:** Tables, bookcases, and supplies underperform, while machines, fasteners, and labels outperform. This informs inventory and sales strategy.
 
 ---
 
 ### 4. Average Profit vs. Average Return Rate
-![Avg Profit vs Return Rate](visualizations/Average Profit vs Average Return Rate.png)  
+![Avg Profit vs Return Rate](Visualizations/Average Profit vs Average Return Rate.png)  
 **Insight:** High return rates often correlate with low profits. Avoiding or improving these products could reduce revenue leakage.
 
 ---
 
 ### 5. State-Level Profitability
-![States with Profit](visualizations/States with Profit.png)  
+![States with Profit](Visualizations/States with Profit.png)  
 **Insight:** Certain states show seasonality and strong profit trends. Regional marketing campaigns should align with those profit spikes.
 
 ---
@@ -59,3 +59,4 @@ This condensed analysis offers a foundation for smarter decision-making. By focu
 ---
 
 > 🚀 *Final project submission for Junior BI Analyst training.*
+
