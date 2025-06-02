@@ -12,31 +12,31 @@ To translate raw event log data into actionable business insights by identifying
 ## 📊 Key Visualizations & Insights
 
 ### 1. Profits & Losses by Region and Sub-Category
-![Profits & Losses](super_store_profitability_analysis/visualizations/profits_and_losses.png)  
+![Profits & Losses](visualizations/profits_and_losses.png)  
 **Insight:** Chairs in the East and copiers in the West are highly profitable. Tables and binders are consistent loss-makers and should be reviewed.
 
 ---
 
 ### 2. Top Selling Products by Profit
-![Top Selling Products](super_store_profitability_analysis/visualizations/top_selling_products.png)  
+![Top Selling Products](visualizations/top_selling_products.png)  
 **Insight:** A few standout items generate the bulk of product-level profits. Focusing on these SKUs can maximize margin efficiency.
 
 ---
 
 ### 3. Sub-Categories to Stop & Continue Selling
-![Stop & Continue Selling](super_store_profitability_analysis/visualizations/subcategories_to_stop_continue_selling.png)  
+![Stop & Continue Selling](visualizations/subcategories_to_stop_continue_selling.png)  
 **Insight:** Tables, bookcases, and supplies underperform, while machines, fasteners, and labels outperform. This informs inventory and sales strategy.
 
 ---
 
 ### 4. Average Profit vs. Average Return Rate
-![Avg Profit vs Return Rate](super_store_profitability_analysis/visualizations/average_profit_vs_average_return_rate.png)  
+![Avg Profit vs Return Rate](visualizations/average_profit_vs_average_return_rate.png)  
 **Insight:** High return rates often correlate with low profits. Avoiding or improving these products could reduce revenue leakage.
 
 ---
 
 ### 5. State-Level Profitability
-![States with Profit](super_store_profitability_analysis/visualizations/states_with_profit.png)  
+![States with Profit](visualizations/states_with_profit.png)  
 **Insight:** Certain states show seasonality and strong profit trends. Regional marketing campaigns should align with those profit spikes.
 
 ---
