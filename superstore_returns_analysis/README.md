@@ -1,96 +1,92 @@
-# Superstore Returns Analysis
+# Superstore Returns Dashboard Analysis
 
-This project investigates the root causes of high return rates at a fictional Superstore. Using Tableau dashboards and story points, we analyze customer return behavior across products, locations, seasons, and customer segments. The objective is to present strategic insights that help reduce returns and improve profitability across departments and regions.
+This project was built as part of a junior analyst case study focused on return behavior at a fictional retail superstore. The goal was to identify what’s driving customer returns and recommend strategic solutions to minimize them — without compromising customer experience.
 
 ---
 
 ## 🔍 Objective
 
-To help the CEO understand:
-- What factors are driving product returns?
-- Are there geographic or seasonal trends?
-- Which customers or products are most return-prone?
-- What actions can the business take based on the data?
+To help company leadership understand:
+- What categories, customer types, or time periods are return-prone?
+- Are there geographic patterns in return rates?
+- How do returns affect profitability?
+- What corrective actions are most promising?
 
-By translating raw order and return data into interactive dashboards and compelling narratives, this project guides leadership in prioritizing cost-reduction strategies while maintaining customer satisfaction.
+This Tableau dashboard and multi-page story provides a breakdown of trends, customer behaviors, and KPIs to support executive decisions.
 
 ---
 
-## 📊 Final Dashboard Overview
+## 🗂️ Data Overview
 
-![Final Dashboard](final_dashboard.png)
+The analysis was based on:
+- **Order history** (2018–2021) with categories, sales, profit  
+- **Return indicators** to flag returned transactions  
+- **Customer names and locations** to evaluate frequency and clustering  
+- **Derived KPIs** including average return rate, profit, and correlation metrics  
 
-The executive dashboard offers a consolidated view of return rates across multiple dimensions: customer behavior, time of year, geography, and product category. Filters and tooltips allow users to drill into problematic areas and identify opportunities to intervene or course-correct.
+---
+
+## 📊 Dashboard Overview
+
+![Final Dashboard](dashboard.png)
+
+This executive view summarizes return rates over time, by state, category, and customer — as well as profitability trends and correlations.
 
 ---
 
 ## 📘 Key Visualizations & Insights
 
 ### 1. Monthly Return Rates
-![Page 1](final_story_page_1.png)  
-**Insight:** Returns spike in September and December, aligning with back-to-school and holiday seasons. These spikes suggest possible mismatches between expectations and product experience. Seasonal campaigns may need better expectation setting or flexible return policies.
+![Monthly Return Rates](monthly_return_rates.png)  
+**Insight:** Return rates spike in September and December, aligning with the fall and holiday shopping seasons — likely tied to increased volume and expectation mismatches.
 
 ---
 
 ### 2. State Return Rates
-![Page 2](final_story_page_2.png)  
-**Insight:** States on the West Coast and Northeast exhibit higher return rates. This suggests regional discrepancies either in customer service experience, delivery conditions, or regional product preferences. These insights can support geographically targeted interventions.
+![State Return Rates](state_return_rates.png)  
+**Insight:** Western and Northeastern states show higher return rates, suggesting geographic variations in customer satisfaction or shipping experiences.
 
 ---
 
 ### 3. Return Rate by Category
-![Page 3](final_story_page_3.png)  
-**Insight:** Technology items show a slightly higher return rate compared to Furniture and Office Supplies. These returns may stem from post-purchase complexity, compatibility issues, or unmet expectations. This insight suggests a need for enhanced product information and customer support.
+![Return Rate by Category](average_return_rate_per_category.png)  
+**Insight:** Technology leads in return rates, followed closely by Office Supplies and Furniture. This may reflect complexity, compatibility, or expectation gaps.
 
 ---
 
 ### 4. Return Rate vs. Profit Over Time
-![Page 4](final_story_page_4.png)  
-**Insight:** While return rates remain steady, profit margins increased significantly in 2021. This suggests improved operational efficiency, better sales strategies, or optimized pricing — despite the static return rates.
+![Return vs Profit](rates_vs_profit.png)  
+**Insight:** Profit grew sharply in 2021 despite steady return rates, pointing to improved efficiency or pricing strategies.
 
 ---
 
 ### 5. Sales vs. Returns Correlation
-![Page 5](final_story_page_5.png)  
-**Insight:** High-selling items (e.g., Binders, Accessories) also show higher return volumes. Although this relationship is partially expected, some subcategories like Phones manage high sales with low returns — ideal segments to expand or promote.
+![Sales vs Returns](correlation_between_sales_&_returns.png)  
+**Insight:** A positive correlation exists — high-sales items often produce more returns. However, categories like Phones perform well with low return rates despite high volume.
 
 ---
 
 ### 6. High-Return Customers
-![Page 6](final_story_page_6.png)  
-**Insight:** Certain customers exhibit return rates close to 100%, indicating possible abuse or dissatisfaction. Identifying and contacting these individuals could lead to better retention or prevent further margin loss.
-
----
-
-### 7–9. Composite Analyses and Final Story Wrap-up
-![Page 7](final_story_page_7.png)  
-![Page 8](final_story_page_8.png)  
-![Page 9](final_story_page_9.png)  
-**Insight:** These views synthesize dimensions like product type, location, and return frequency to allow dynamic filtering and drill-down analysis. Executives can interactively explore hypotheses and root causes using filters embedded in the story.
+![High Return Customers](customers_with_returns.png)  
+**Insight:** Some customers have near-100% return rates. These cases could reflect chronic dissatisfaction, fraud, or unclear policies — and warrant targeted engagement.
 
 ---
 
 ## ✅ Strategic Recommendations
 
-- **Enhance product descriptions and post-sale support** for high-return items in Technology and Office Supplies.
-- **Target geographic hot spots** with localized return policies, better shipping logistics, or region-specific inventory tuning.
-- **Monitor high-return customers** and offer retention plans, educational onboarding, or direct feedback loops.
-- **Align marketing strategy** with seasonal return patterns to reduce regret-based purchases during high-volume periods.
-
----
-
-## 🔗 Tableau Project
-
-[View Final Story on Tableau Public](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalStory)
+- **Improve product detail and onboarding** for high-return categories like Technology.  
+- **Target high-return regions** with localized return policies or proactive outreach.  
+- **Flag high-return customers** for review, feedback collection, or loyalty alternatives.  
+- **Optimize seasonal messaging** to reduce regret-based returns during high-volume periods.
 
 ---
 
 ## 🛠 Tools Used
 
-- Tableau Public  
+- Tableau  
 - Excel  
 - GitHub
 
 ---
 
-> 🚀 Final project submission for the “Storytelling with Data” capstone in Business Intelligence Analyst training.
+> 📘 Final submission for Business Intelligence Capstone: “Storytelling with Data”
