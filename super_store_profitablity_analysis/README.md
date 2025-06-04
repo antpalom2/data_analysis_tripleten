@@ -34,7 +34,7 @@ A small number of products contribute disproportionately to overall profit, unde
 ---
 
 ### 3. Sub-Categories to Stop & Continue Selling
-![Stop & Continue Selling](visualizations/subcategories_to_stop_continue_selling.png)  
+![Stop & Continue Selling](visualizations/subcategories_to_stop_&_continue_selling.png)  
 **Insight:**  
 Tables, bookcases, and supplies underperform financially and may no longer justify shelf space. On the other hand, machines, fasteners, and labels show consistently positive returns. This visualization provides a basis for discontinuing low-value sub-categories and reallocating those resources to proven profit centers.
 
