@@ -1,10 +1,10 @@
 # TripleTen_projects
 Projects I worked on while attending the Data Analysis TripleTen Bootcamp.
 
-
 | Project number | Title | Description |
-| :-----------: | ----------- |----------- |
-| 1 | Norbu stress control| The project task was to analyze user data and find possible causes for the company’s low CR and retention rate. |
-| 2 | [Instacart](https://github.com/zarina-perez/TripleTen_projects/tree/main/02-EDA_project) | The project task was to prepare a report that gives insight into the shopping habits of Instacart customers |
-| 3 | A/A/B Test Analysis | The project task was to study the sales funnel and analyze the results of an A/B test for a food startup. |
-| 4 | Machine Learning Customer Interaction Strategies | The project task was to help a chain of fitness clubs develop a customer retention strategy. |
+| :-----------: | :-------------------------------------------- | :-------------------------------------------------------------------------- |
+| 1 | [Business Analytics Project](./Business%20Analytics%20Project) | Transformed raw user activity logs into funnel metrics and retention insights for an e-commerce platform. |
+| 2 | [Manhattan Vacation Rental Market Analysis](./Manhattan%20Vacation%20Rental%20Market%20Analysis) | Analyzed Airbnb pricing, availability, and profitability across Manhattan neighborhoods using Power BI. |
+| 3 | [Shopify App Intelligence](./appstore_intelligence_shopify) | Investigated user reviews and app performance to uncover category trends and sentiment. |
+| 4 | [Superstore Profitability Analysis](./super_store_profitability_analysis) | Built a Tableau dashboard to evaluate profit drivers and return rates across regions and categories. |
+| 5 | [Superstore Returns Analysis](./superstore_returns_analysis) | Analyzed product return patterns using Tableau to identify loss hotspots and optimize operations. |
