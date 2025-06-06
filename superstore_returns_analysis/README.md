@@ -1,118 +1,106 @@
-# Superstore Returns Dashboard Analysis
+# 📦 E-Commerce Funnel & Retention Analysis
 
-This project was built as part of a junior analyst case study focused on return behavior at a fictional retail superstore. The goal was to identify what’s driving customer returns and recommend strategic solutions to minimize them — without compromising customer experience.
+## 📌 Project Overview
 
----
+This project analyzes user behavior from an e-commerce company's website by turning raw event logs into actionable business metrics. The goals were to:
 
-## 🔍 Objective
+- Construct a **conversion funnel** showing user progression from product view to purchase  
+- Conduct a **cohort analysis** to evaluate monthly retention patterns post-purchase
 
-To help company leadership understand:
-- What categories, customer types, or time periods are return-prone?
-- Are there geographic patterns in return rates?
-- How do returns affect profitability?
-- What corrective actions are most promising?
-
-This Tableau dashboard and multi-page story provides a breakdown of trends, customer behaviors, and KPIs to support executive decisions.
+📄 [View Full Project Spreadsheet](https://docs.google.com/spreadsheets/d/1mP457L7VC0wt6mznyZBxOQeP3lBSEBWfranspaMT7SI/edit?gid=868644233#gid=868644233)
 
 ---
 
-## 🗂️ Data Overview
+## 🗂️ Dataset
 
-The analysis was based on:
-- **Order history** (2018–2021) with categories, sales, profit  
-- **Return indicators** to flag returned transactions  
-- **Customer names and locations** to evaluate frequency and clustering  
-- **Derived KPIs** including average return rate, profit, and correlation metrics  
+The analysis uses raw user event logs available in the following spreadsheet:
 
----
+📊 [View Raw Dataset – raw_user_activity](https://docs.google.com/spreadsheets/d/1yuavBZ4OYYUD1opH-dq0d6nejREDy8f0ozumT9-yEuo/edit#gid=0)
 
-## 📊 Dashboard Overview
-
-![Final Dashboard](visualizations/dashboard.png)
-
-This executive view summarizes return rates over time, by state, category, and customer — as well as profitability trends and correlations.
+Key columns include:
+- `user_id`: Unique user identifier  
+- `event_type`: Type of activity (view, cart, purchase)  
+- `category_code`: Product category  
+- `brand`: Product brand  
+- `event_time`: Timestamp of the event  
 
 ---
 
-## 📘 Key Visualizations & Insights
+## 🔍 Key Questions Answered
 
-### 1. Monthly Return Rates
-![Monthly Return Rates](visualizations/monthly_return_rates.png)  
-**Insight:** Return rates spike in September and December, aligning with the fall and holiday shopping seasons — likely tied to increased volume and expectation mismatches.
-
----
-
-### 2. State Return Rates
-![State Return Rates](visualizations/state_return_rates.png)  
-**Insight:** Western and Northeastern states show higher return rates, suggesting geographic variations in customer satisfaction or shipping experiences.
+1. What does the conversion funnel look like across product view, cart, and purchase stages?  
+2. How well does the company retain users over time after their first purchase?
 
 ---
 
-### 3. Return Rate by Category
-![Return Rate by Category](visualizations/average_return_rate_per_category.png)  
-**Insight:** Technology leads in return rates, followed closely by Office Supplies and Furniture. This may reflect complexity, compatibility, or expectation gaps.
+## 🧼 Data Cleaning & Preparation
+
+Performed in Excel:
+- Converted `event_time` to a readable datetime format  
+- Categorized events into funnel stages  
+- Assigned `cohort_month` and `event_month` for retention tracking  
+- Created pivot tables to analyze retention by cohort  
 
 ---
 
-### 4. Return Rate vs. Profit Over Time
-![Return vs Profit](visualizations/rates_vs_profit.png)  
-**Insight:** Profit grew sharply in 2021 despite steady return rates, pointing to improved efficiency or pricing strategies.
+## 📈 Visualizations
+
+📊 [View the Interactive Tableau Dashboard](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+### 1. Conversion Funnel  
+![Conversion Funnel](visualizations/conversion_funnel.png)  
+**Insight:**  
+Only 29% of users who view a product add it to their cart, and just 10% complete a purchase. There's a sharp drop at each stage — especially from cart to checkout — indicating opportunities to optimize the buying journey.
 
 ---
 
-### 5. Sales vs. Returns Correlation
-![Sales vs Returns](visualizations/correlation_between_sales_&_returns.png)  
-**Insight:** A positive correlation exists — high-sales items often produce more returns. However, categories like Phones perform well with low return rates despite high volume.
+### 2. Cohort Analysis – Unique User Count  
+![Cohort Analysis](visualizations/cohort_analysis.png)  
+**Insight:**  
+Retention sharply declines after the first month. Very few users return 2–4 months after their first purchase, especially from the late 2020 cohorts.
 
 ---
 
-### 6. High-Return Customers
-![High Return Customers](visualizations/customers_with_returns.png)  
-**Insight:** Some customers have near-100% return rates. These cases could reflect chronic dissatisfaction, fraud, or unclear policies — and warrant targeted engagement.
+### 3. Cohort Analysis – Retention Rates (%)  
+![Retention Rates](visualizations/retention_rates.png)  
+**Insight:**  
+Most cohorts retain less than 5% of their users beyond the second month. Long-term engagement remains a challenge, highlighting the need for better post-purchase follow-up and incentives.
 
 ---
 
-## ✅ Strategic Recommendations
+## 📁 File Structure
 
-- **Improve product detail and onboarding** for high-return categories like Technology.  
-- **Target high-return regions** with localized return policies or proactive outreach.  
-- **Flag high-return customers** for review, feedback collection, or loyalty alternatives.  
-- **Optimize seasonal messaging** to reduce regret-based returns during high-volume periods.
+The project spreadsheet includes the following sheets:
 
----
+- **raw_user_activity**  
+  Contains all user activity logs:
+  - `user_id`, `event_type`, `category_code`, `brand`, `event_time`  
+  - Used to construct the funnel and cohort analyses
 
-## 💡 Business Questions Answered
+- **conversion_funnel**  
+  Aggregated view of user progression through:
+  - Product View → Cart → Purchase  
+  - Includes conversion rates by event type and brand
 
-- **Why focus on return rate instead of total returns?**  
-  Total returns help identify which items are returned the most, but **return rate** is a better metric for comparing trends over time, by location, and across categories — because it accounts for differences in sales volume.
+- **cohort_retention**  
+  User retention matrix:
+  - Assigns users to `cohort_month` based on first purchase  
+  - Tracks retention across future months using pivot tables
 
-- **What might explain high return rates?**  
-  Technology products during the holiday season show higher return rates, possibly due to increased volume and higher expectations. Regional patterns suggest potential fulfillment or delivery issues in certain states.
-
-- **What can we do about high-return customers and regions?**  
-  We recommend sending targeted surveys to both **customers with extremely high return rates** and customers in **high-return states**. These insights can inform future shipping, manufacturing, and marketing strategies.
-
----
-
-## 🧾 Conclusions
-
-We suggest a **deeper investigation** into:
-
-- Why higher sales often correlate with higher return rates  
-- Whether **holiday purchases** (especially in Technology) create more post-purchase dissatisfaction  
-- If **specific regions are receiving more defective or mishandled items**  
-- Engaging high-return customers and testing **region-specific improvements**
-
-These recommendations aim to balance return rate reduction with continued customer satisfaction and sales performance.
+- **pivot_tables**  
+  Supporting tables for visualizations:
+  - Conversion rate breakdowns  
+  - Retention summaries  
+  - Event counts by stage and brand
 
 ---
 
-## 🛠 Tools Used
+## 🛠️ Tools Used
 
-- Tableau  
-- Excel  
-- GitHub
+- Excel (Data Cleaning & Pivot Tables)  
+- Tableau Public (Data Visualization)  
+- GitHub (Project Versioning & Documentation)
 
 ---
 
-> 📘 Final submission for Business Intelligence Capstone: “Storytelling with Data”
+🚀 Project submission for the Spreadsheet Data Analysis sprint (TripleTen BI Program).
