@@ -1,4 +1,3 @@
-
 # 🏙️ Manhattan Vacation Rental Market Analysis
 
 ## 📌 Project Overview
@@ -59,14 +58,14 @@ Performed in Excel:
 ## 📈 Visualizations
 
 ### 1. Top 10 Most Popular Neighborhoods by Number of Reviews  
-![Top 10 Neighborhoods](visualizations/top_10_neighborhoods_reviews.png)  
+![Top 10 Neighborhoods](visualizations/most_popular_neighborhoods.png)  
 **Insight:**  
 Lower East Side, Hells Kitchen, and Harlem are the most reviewed neighborhoods, suggesting strong rental demand.
 
 ---
 
 ### 2. Property Sizes by Neighborhood (Pivot Table)  
-![Bedrooms by Neighborhood](visualizations/bedrooms_by_neighborhood.png)  
+![Bedrooms by Neighborhood](visualizations/most_popular_by_bedroom_spaces.png)  
 **Insight:**  
 1-bedroom rentals are the most common across neighborhoods, but Midtown and East Harlem show unusually high numbers of studio apartments.
 
@@ -92,19 +91,3 @@ Lower East Side, Hells Kitchen, and Harlem are the most reviewed neighborhoods, 
 
 ## 📎 File Structure
 
-```
-/manhattan-vacation-rental-analysis
-├── data/
-│   └── airbnb_listings.xlsx
-├── visualizations/
-│   ├── top_10_neighborhoods_reviews.png
-│   └── bedrooms_by_neighborhood.png
-└── README.md
-```
-
----
-
-## 🎓 About
-
-This project was completed as part of the [TripleTen](https://tripleten.com/) Data Analytics Program.  
-It demonstrates applied spreadsheet analytics, data storytelling, and business insights.
