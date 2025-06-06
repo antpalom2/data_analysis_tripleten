@@ -89,5 +89,5 @@ Lower East Side, Hells Kitchen, and Harlem are the most reviewed neighborhoods, 
 
 ---
 
-## 📎 File Structure
+## 📁 Folder Structure
 
