@@ -4,7 +4,7 @@
 
 This project analyzes user behavior from an e-commerce company's website by turning raw event logs into actionable business metrics. The goals were to:
 
-- Construct a **conversion funnel** showing user progression from product view to purchase
+- Construct a **conversion funnel** showing user progression from product view to purchase  
 - Conduct a **cohort analysis** to evaluate monthly retention patterns post-purchase
 
 ---
@@ -13,17 +13,17 @@ This project analyzes user behavior from an e-commerce company's website by turn
 
 The data comes from raw user activity logs (`raw_user_activity` tab) and includes:
 
-- `user_id`: Unique user identifier
-- `event_type`: Type of activity (view, cart, purchase)
-- `category_code`: Product category
-- `brand`: Product brand
-- `event_time`: Timestamp of the event
+- `user_id`: Unique user identifier  
+- `event_type`: Type of activity (view, cart, purchase)  
+- `category_code`: Product category  
+- `brand`: Product brand  
+- `event_time`: Timestamp of the event  
 
 ---
 
 ## 🔍 Key Questions Answered
 
-1. What does the conversion funnel look like across product view, cart, and purchase stages?
+1. What does the conversion funnel look like across product view, cart, and purchase stages?  
 2. How well does the company retain users over time after their first purchase?
 
 ---
@@ -31,10 +31,10 @@ The data comes from raw user activity logs (`raw_user_activity` tab) and include
 ## 🧼 Data Cleaning & Preparation
 
 Performed in Excel:
-- Converted `event_time` to a readable datetime format
-- Categorized events into funnel stages
-- Assigned `cohort_month` and `event_month` for retention tracking
-- Created pivot tables to analyze retention by cohort
+- Converted `event_time` to a readable datetime format  
+- Categorized events into funnel stages  
+- Assigned `cohort_month` and `event_month` for retention tracking  
+- Created pivot tables to analyze retention by cohort  
 
 ---
 
@@ -43,14 +43,21 @@ Performed in Excel:
 ### 1. Conversion Funnel  
 ![Conversion Funnel](visualizations/conversion_funnel.png)  
 **Insight:**  
-Significant drop-off occurs between cart and purchase, suggesting checkout process optimization is needed.
+Only 29% of users who view a product add it to their cart, and just 10% complete a purchase. There's a sharp drop at each stage — especially from cart to checkout — indicating opportunities to optimize the buying journey.
 
 ---
 
-### 2. Monthly Retention by Cohort  
-![Cohort Retention](visualizations/cohort_retention_matrix.png)  
+### 2. Cohort Analysis – Unique User Count  
+![Cohort Analysis](visualizations/cohort_analysis.png)  
 **Insight:**  
-Retention drops sharply after the first month, with only a small fraction of users returning in month 2 or beyond.
+Retention sharply declines after the first month. Very few users return 2–4 months after their first purchase, especially from the late 2020 cohorts.
+
+---
+
+### 3. Cohort Analysis – Retention Rates (%)  
+![Retention Rates](visualizations/retention_rates.png)  
+**Insight:**  
+Most cohorts retain less than 5% of their users beyond the second month. Long-term engagement remains a challenge, highlighting the need for better post-purchase follow-up and incentives.
 
 ---
 
