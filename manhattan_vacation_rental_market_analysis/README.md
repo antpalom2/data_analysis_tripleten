@@ -76,11 +76,31 @@ Lower East Side, Hells Kitchen, and Harlem are the most reviewed neighborhoods, 
 
 ---
 
-## 🧠 Assumptions
+## 📁 File Structure
 
-- `review_count` is used as a proxy for demand  
-- 30-day revenue × 12 is a reasonable annual estimate  
-- `top_listing` is based on top neighborhoods and most frequent bedroom count
+The project spreadsheet includes the following sheets:
+
+- **Processed Listings**  
+  Cleaned and enhanced Airbnb listing data with:
+  - `listing_id`, `neighborhood_clean`, `bedrooms_clean`, `price`, `review_count`
+  - Calculated columns: `top_listing`, estimated 30-day and annual revenue
+
+- **Calendar**  
+  Night-by-night availability and pricing:
+  - `listing_id`, `date`, `available`, `adjusted_price`
+  - Used to compute realized revenue and identify inactive days
+
+- **Top Listings**  
+  Filtered view of listings:
+  - Located in top 10 neighborhoods  
+  - Featuring the most common bedroom type per neighborhood  
+  - Includes revenue estimates and sorting criteria
+
+- **Pivot Tables**  
+  Summary pivot tables used to generate:
+  - Top 10 neighborhoods by review count  
+  - Most common property sizes by neighborhood  
+  - Revenue rankings for selected `top_listing` records
 
 ---
 
