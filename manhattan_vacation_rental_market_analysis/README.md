@@ -89,5 +89,12 @@ Lower East Side, Hells Kitchen, and Harlem are the most reviewed neighborhoods, 
 
 ---
 
-## 📁 Folder Structure
+## 🛠️ Tools Used
 
+- Excel (Data Cleaning & Preparation)  
+- Tableau Public (Data Visualization)  
+- GitHub (Project Versioning & Documentation)
+
+---
+
+## 📘 Project submission for the Spreadsheet Data Analysis sprint (TripleTen BI Program).
