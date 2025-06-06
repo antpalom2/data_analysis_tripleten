@@ -1,4 +1,3 @@
-
 # E-Commerce Funnel & Retention Analysis
 
 ## Overview
@@ -30,7 +29,7 @@ The `conversion_funnel` sheet shows how users moved from viewing products to mak
 
 Conversion rates were calculated using unique user counts per funnel stage.
 
-![Conversion Funnel](./conversion_funnel.png)
+![Conversion Funnel](./visualizations/conversion_funnel.png)
 
 ### 📅 Cohort Analysis & Retention
 
@@ -41,9 +40,9 @@ Users were grouped into monthly **acquisition cohorts** based on their first pur
 
 Cohort ages and purchase tracking were based on the difference between each user's event date and their first purchase date.
 
-![Retention Rates](./retention_rates.png)
+![Retention Rates](./visualizations/retention_rates.png)
 
-![Cohort Analysis](./cohort_analysis.png)
+![Cohort Analysis](./visualizations/cohort_analysis.png)
 
 ## File Structure
 
