@@ -7,12 +7,17 @@ This project analyzes user behavior from an e-commerce company's website by turn
 - Construct a **conversion funnel** showing user progression from product view to purchase  
 - Conduct a **cohort analysis** to evaluate monthly retention patterns post-purchase
 
+📄 [View Full Project Spreadsheet](https://docs.google.com/spreadsheets/d/1mP457L7VC0wt6mznyZBxOQeP3lBSEBWfranspaMT7SI/edit?gid=868644233#gid=868644233)
+
 ---
 
 ## 🗂️ Dataset
 
-The data comes from raw user activity logs (`raw_user_activity` tab) and includes:
+The analysis uses raw user event logs available in the following spreadsheet:
 
+📊 [View Raw Dataset – raw_user_activity](https://docs.google.com/spreadsheets/d/1yuavBZ4OYYUD1opH-dq0d6nejREDy8f0ozumT9-yEuo/edit#gid=0)
+
+Key columns include:
 - `user_id`: Unique user identifier  
 - `event_type`: Type of activity (view, cart, purchase)  
 - `category_code`: Product category  
