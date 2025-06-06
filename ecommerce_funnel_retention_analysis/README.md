@@ -66,11 +66,30 @@ Most cohorts retain less than 5% of their users beyond the second month. Long-te
 
 ---
 
-## 🧠 Assumptions
+## 📁 File Structure
 
-- Each `user_id` represents a unique customer  
-- Users begin their journey with a `view` event and progress through `cart` to `purchase`  
-- A user's cohort is based on the month of their **first purchase**
+The project spreadsheet includes the following sheets:
+
+- **raw_user_activity**  
+  Contains all user activity logs:
+  - `user_id`, `event_type`, `category_code`, `brand`, `event_time`  
+  - Used to construct the funnel and cohort analyses
+
+- **conversion_funnel**  
+  Aggregated view of user progression through:
+  - Product View → Cart → Purchase  
+  - Includes conversion rates by event type and brand
+
+- **cohort_retention**  
+  User retention matrix:
+  - Assigns users to `cohort_month` based on first purchase  
+  - Tracks retention across future months using pivot tables
+
+- **pivot_tables**  
+  Supporting tables for visualizations:
+  - Conversion rate breakdowns  
+  - Retention summaries  
+  - Event counts by stage and brand
 
 ---
 
