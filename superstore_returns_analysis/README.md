@@ -1,4 +1,6 @@
-# Superstore Returns Analysis
+# 📦 Superstore Returns Analysis
+
+## 📌 Project Overview
 
 This project investigates the root causes of high return rates at a fictional Superstore. Using Tableau dashboards and story points, we analyze customer return behavior across products, locations, seasons, and customer segments. The objective is to present strategic insights that help reduce returns and improve profitability across departments and regions.
 
@@ -16,81 +18,54 @@ By translating raw order and return data into interactive dashboards and compell
 
 ---
 
-## 📊 Final Dashboard Overview
+## 📈 Final Dashboard & Visualizations
 
-![Final Dashboard](final_dashboard.png)
+📊 [View the Interactive Tableau Story](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalStory)
 
-The executive dashboard offers a consolidated view of return rates across multiple dimensions: customer behavior, time of year, geography, and product category. Filters and tooltips allow users to drill into problematic areas and identify opportunities to intervene or course-correct.
+### Final Dashboard  
+![Final Dashboard](visualizations/dashboard.png)
 
----
+### Monthly Return Rates  
+![Monthly Return Rates](visualizations/monthly_return_rates.png)  
+**Insight:** Returns increase in fall and winter months, particularly September and December, suggesting seasonal influences on returns.
 
-## 📘 Key Visualizations & Insights
+### State Return Rates  
+![State Return Rates](visualizations/state_return_rates.png)  
+**Insight:** Higher return rates cluster around the West Coast and Northeast, signaling geographic patterns that may be linked to logistics or expectations.
 
-### 1. Monthly Return Rates
-![Page 1](final_story_page_1.png)  
-**Insight:** Returns spike in September and December, aligning with back-to-school and holiday seasons. These spikes suggest possible mismatches between expectations and product experience. Seasonal campaigns may need better expectation setting or flexible return policies.
+### Return Rate by Category  
+![Return Rate by Category](visualizations/average_return_rate_per_category.png)  
+**Insight:** Technology has the highest average return rate, indicating potential post-purchase dissatisfaction or complexity.
 
----
+### Return Rate vs. Profit  
+![Return Rate vs. Profit](visualizations/rates_vs_profit.png)  
+**Insight:** Profit increased over time despite a stable return rate, hinting at improved efficiency or pricing strategy.
 
-### 2. State Return Rates
-![Page 2](final_story_page_2.png)  
-**Insight:** States on the West Coast and Northeast exhibit higher return rates. This suggests regional discrepancies either in customer service experience, delivery conditions, or regional product preferences. These insights can support geographically targeted interventions.
+### Sales vs. Returns Correlation  
+![Sales vs. Returns Correlation](visualizations/correlation_between_sales_&_returns.png)  
+**Insight:** Subcategories like Binders and Accessories show high sales and high returns, while Phones perform well with low returns — ideal for scaling.
 
----
-
-### 3. Return Rate by Category
-![Page 3](final_story_page_3.png)  
-**Insight:** Technology items show a slightly higher return rate compared to Furniture and Office Supplies. These returns may stem from post-purchase complexity, compatibility issues, or unmet expectations. This insight suggests a need for enhanced product information and customer support.
-
----
-
-### 4. Return Rate vs. Profit Over Time
-![Page 4](final_story_page_4.png)  
-**Insight:** While return rates remain steady, profit margins increased significantly in 2021. This suggests improved operational efficiency, better sales strategies, or optimized pricing — despite the static return rates.
-
----
-
-### 5. Sales vs. Returns Correlation
-![Page 5](final_story_page_5.png)  
-**Insight:** High-selling items (e.g., Binders, Accessories) also show higher return volumes. Although this relationship is partially expected, some subcategories like Phones manage high sales with low returns — ideal segments to expand or promote.
-
----
-
-### 6. High-Return Customers
-![Page 6](final_story_page_6.png)  
-**Insight:** Certain customers exhibit return rates close to 100%, indicating possible abuse or dissatisfaction. Identifying and contacting these individuals could lead to better retention or prevent further margin loss.
-
----
-
-### 7–9. Composite Analyses and Final Story Wrap-up
-![Page 7](final_story_page_7.png)  
-![Page 8](final_story_page_8.png)  
-![Page 9](final_story_page_9.png)  
-**Insight:** These views synthesize dimensions like product type, location, and return frequency to allow dynamic filtering and drill-down analysis. Executives can interactively explore hypotheses and root causes using filters embedded in the story.
+### High-Return Customers  
+![High-Return Customers](visualizations/customers_with_returns.png)  
+**Insight:** A small group of customers drive the highest return rates — possible targets for outreach or review.
 
 ---
 
 ## ✅ Strategic Recommendations
 
-- **Enhance product descriptions and post-sale support** for high-return items in Technology and Office Supplies.
-- **Target geographic hot spots** with localized return policies, better shipping logistics, or region-specific inventory tuning.
-- **Monitor high-return customers** and offer retention plans, educational onboarding, or direct feedback loops.
-- **Align marketing strategy** with seasonal return patterns to reduce regret-based purchases during high-volume periods.
-
----
-
-## 🔗 Tableau Project
-
-[View Final Story on Tableau Public](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalStory)
+- **Improve product descriptions and customer support** for high-return categories.
+- **Localize return policies** and adjust shipping for high-return regions.
+- **Flag and engage with high-return customers** for retention or investigation.
+- **Align campaigns with return trends** during peak seasons to minimize regret purchases.
 
 ---
 
 ## 🛠 Tools Used
 
-- Tableau Public  
-- Excel  
-- GitHub
+- **Tableau Public** – Visual storytelling & dashboards  
+- **Excel** – Data preparation & pivot calculations  
+- **GitHub** – Version control & documentation
 
 ---
 
-> 🚀 Final project submission for the “Storytelling with Data” capstone in Business Intelligence Analyst training.
+🚀 Final project submission for the *Storytelling with Data* capstone in TripleTen's Business Intelligence Analyst program.
