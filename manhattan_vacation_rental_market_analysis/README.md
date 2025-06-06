@@ -73,10 +73,10 @@ Lower East Side, Hells Kitchen, and Harlem are the most reviewed neighborhoods, 
 
 ## 💡 Future Improvements
 
-- Automate the analysis in Python or SQL
-- Incorporate occupancy rates
-- Compare seasonal trends
-- Normalize review counts by listing age
+- Automate the analysis in Python or SQL  
+- Incorporate occupancy rates  
+- Compare seasonal trends  
+- Normalize review counts by listing age  
 
 ---
 
@@ -97,4 +97,4 @@ Lower East Side, Hells Kitchen, and Harlem are the most reviewed neighborhoods, 
 
 ---
 
-## 📘 Project submission for the Spreadsheet Data Analysis sprint (TripleTen BI Program).
+🚀 Project submission for the Spreadsheet Data Analysis sprint (TripleTen BI Program).
