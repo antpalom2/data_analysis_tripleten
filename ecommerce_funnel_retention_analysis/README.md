@@ -96,7 +96,6 @@ The project spreadsheet includes the following sheets:
 ## 🛠️ Tools Used
 
 - Excel (Data Cleaning & Pivot Tables)  
-- Tableau Public (Data Visualization)  
 - GitHub (Project Versioning & Documentation)
 
 ---
