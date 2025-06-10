@@ -1,9 +1,9 @@
 # 📦 Superstore Returns Analysis
 
-## 📄 Dataset & Dashboard
+This project investigates the root causes of high return rates at a fictional Superstore. Using Tableau dashboards and story points, we analyze customer return behavior across products, locations, seasons, and customer segments. The objective is to present strategic insights that help reduce returns and improve profitability across departments and regions.
 
-- 📊 [View the Interactive Tableau Story](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalStory)  
-- 📂 [Download Dataset (Excel)](https://practicum-content.s3.us-west-1.amazonaws.com/data-eng/remodeled/files/Superstore.xls?etag=4616d537c163874941cf5fc3c9002fa8)
+📊 [View the Interactive Tableau Story](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalStory)  
+📄 [Download Dataset (Excel)](https://practicum-content.s3.us-west-1.amazonaws.com/data-eng/remodeled/files/Superstore.xls?etag=4616d537c163874941cf5fc3c9002fa8)
 
 ---
 
@@ -25,12 +25,6 @@ As part of the **Storytelling with Data** sprint in the TripleTen BI program, th
 - Identified **seasonal and geographic return patterns** to guide operations  
 - Segmented customers and product categories to expose **return hotspots**  
 - Generated actionable insights with a focus on **cost reduction and customer satisfaction**
-
----
-
-## 📌 Project Overview
-
-This project investigates the root causes of high return rates at a fictional Superstore. Using Tableau dashboards and story points, we analyze customer return behavior across products, locations, seasons, and customer segments. The objective is to present strategic insights that help reduce returns and improve profitability across departments and regions.
 
 ---
 
