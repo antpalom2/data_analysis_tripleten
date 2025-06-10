@@ -101,4 +101,25 @@ The project spreadsheet includes the following sheets:
 
 ---
 
+## 📚 Skills & Techniques Applied
+
+Throughout this project, I applied the following skills as part of the Spreadsheet Data Analysis sprint:
+
+### 🧼 Data Cleaning & Preparation
+- Identified and resolved inconsistencies using tools like **Text to Columns**, **Remove Duplicates**, and **Find & Replace**
+- Applied **data validation rules** to control column input values
+- Used **datetime, text, and lookup functions** (`TEXT`, `MONTH`, `YEAR`, `VLOOKUP`) to clean and transform raw event logs
+
+### 📊 Analysis & Modeling
+- Created **pivot tables** to aggregate user activity by funnel stage and cohort month
+- Grouped users into **monthly acquisition cohorts** using timestamp logic
+- Measured **conversion rates** and **user retention trends** using calculated fields
+
+### 📈 Visualization & Communication
+- Built **funnel and retention charts** (bar, line, and matrix formats) to support business storytelling
+- Formatted and documented spreadsheets for clear stakeholder presentation
+- Ensured clean chart layouts, labeled axes, and logical spreadsheet organization
+
+---
+
 🚀 Project submission for the Spreadsheet Data Analysis sprint (TripleTen BI Program).
