@@ -1,5 +1,33 @@
 # 📦 Superstore Returns Analysis
 
+## 📄 Dataset & Dashboard
+
+- 📊 [View the Interactive Tableau Story](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalStory)  
+- 📂 [Download Dataset (Excel)](https://practicum-content.s3.us-west-1.amazonaws.com/data-eng/remodeled/files/Superstore.xls?etag=4616d537c163874941cf5fc3c9002fa8)
+
+---
+
+## 📚 Skills & Techniques Applied
+
+As part of the **Storytelling with Data** sprint in the TripleTen BI program, this project emphasized visual narrative design and stakeholder communication using Tableau. Key skills applied include:
+
+### 🧠 Data-Driven Storytelling
+- Designed an end-to-end **Tableau story** across multiple dashboards
+- Used **dynamic filtering, color cues, and annotations** to build a clear narrative path
+- Framed insights around key business questions (who, what, where, when, why)
+
+### 📈 Visualization Techniques
+- Built **bar charts**, **maps**, **scatter plots**, and **line charts** to show temporal, geographic, and behavioral trends  
+- Incorporated **highlight tables** and customer segmentation visuals  
+- Presented multi-variable analysis (e.g., returns vs. profit) using dual-axis and quadrant logic
+
+### 📊 Strategic Framing & Business Application
+- Identified **seasonal and geographic return patterns** to guide operations  
+- Segmented customers and product categories to expose **return hotspots**  
+- Generated actionable insights with a focus on **cost reduction and customer satisfaction**
+
+---
+
 ## 📌 Project Overview
 
 This project investigates the root causes of high return rates at a fictional Superstore. Using Tableau dashboards and story points, we analyze customer return behavior across products, locations, seasons, and customer segments. The objective is to present strategic insights that help reduce returns and improve profitability across departments and regions.
@@ -19,8 +47,6 @@ By translating raw order and return data into interactive dashboards and compell
 ---
 
 ## 📈 Final Dashboard & Visualizations
-
-📊 [View the Interactive Tableau Story](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalStory)
 
 ### Final Dashboard  
 ![Final Dashboard](visualizations/dashboard.png)
@@ -63,9 +89,8 @@ By translating raw order and return data into interactive dashboards and compell
 ## 🛠 Tools Used
 
 - **Tableau Public** – Visual storytelling & dashboards  
-- **Excel** – Data preparation & pivot calculations  
 - **GitHub** – Version control & documentation
 
 ---
 
-🚀 Final project submission for the *Storytelling with Data* capstone in TripleTen's Business Intelligence Analyst program.
+🚀 Final project submission for the *Storytelling with Data* sprint in TripleTen's Business Intelligence Analyst program.
