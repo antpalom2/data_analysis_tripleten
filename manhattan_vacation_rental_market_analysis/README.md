@@ -106,9 +106,27 @@ The project spreadsheet includes the following sheets:
 
 ## 🛠️ Tools Used
 
-- Excel (Data Cleaning & Calculations)  
-- Tableau Public (Data Visualization)  
+- Excel (Data Cleaning, Calculations & Pivot Tables)  
 - GitHub (Project Versioning & Documentation)
+
+---
+
+## 📚 Skills & Techniques Applied
+
+This project applied key analytical techniques from the Profitability & Funnel Analysis sprint to understand rental performance across Manhattan:
+
+### 💰 Financial Modeling & Demand Analysis
+- Built spreadsheet models to calculate **revenue earned** and **annual revenue estimates** for listings
+- Used conditional logic (`IF`, `ISBLANK`, `SUMIF`) to calculate profits and clean inputs
+- Identified **high-demand bedroom types** per neighborhood based on review count and listing frequency
+
+### 🧭 Funnel Thinking & Spreadsheet Structuring
+- Created **segmentation logic** for identifying top-performing listings using flags like `top_neighborhood` and `top_bedroom`
+- Applied funnel thinking by ranking listings through multiple layered criteria (location, room type, revenue)
+
+### 📊 Spreadsheet Communication
+- Structured data into **clean, stakeholder-ready tables** using pivot tables and summary views
+- Used formatting, filters, and labels to support intuitive storytelling with the data
 
 ---
 
