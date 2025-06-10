@@ -8,51 +8,51 @@ This Power BI project analyzes public data scraped from the Shopify App Store to
 
 To identify key factors in app success on Shopify by analyzing:
 
-- Developer responsiveness to user feedback
-- Review volume and its relationship to average rating
-- Review helpfulness as a quality signal
+- Developer responsiveness to user feedback  
+- Review volume and its relationship to average rating  
+- Review helpfulness as a quality signal  
 - Total app exposure across the platform
 
 ---
 
 ## 📊 Key Visualizations & Insights
 
-### 1. Most Helpful Developers
+### 1. Most Helpful Developers  
 ![Average Helpful Reviews](visualizations/average_of_helpful_reviews_by_developer.png)  
 **Insight:**  
 Developers like *Pictorem* and *Green Goddess* consistently receive reviews that are both high-rated and marked as helpful. This highlights their apps' strong user experience and community value.
 
 ---
 
-### 2. Most Responsive Developers
+### 2. Most Responsive Developers  
 ![Developer Replies](visualizations/sum_of_deleoper_answered_by_developer.png)  
 **Insight:**  
 Top developers like *FireApps* and *DSers* respond to thousands of reviews, showing active support. However, the most responsive developers don’t necessarily have the highest-rated apps.
 
 ---
 
-### 3. Ratings and Developer Engagement
+### 3. Ratings and Developer Engagement  
 ![Ratings by Replies](visualizations/average_of_rating_by_developer_answered.png)  
 **Insight:**  
 Ratings are slightly lower for apps where the developer responded, implying that developers typically respond to negative reviews — a signal of damage control efforts.
 
 ---
 
-### 4. Review Activity Over Time
+### 4. Review Activity Over Time  
 ![Review Volume](visualizations/sum_of_reviews_count_by_last_mod.png)  
 **Insight:**  
 Initial review spikes suggest recent scraping or concentrated update cycles. Later patterns show a steady trend in new reviews, useful for modeling app momentum.
 
 ---
 
-### 5. Rating Stability at Scale
+### 5. Rating Stability at Scale  
 ![Rating vs Review Count](visualizations/average_of_rating_by_reviews_count.png)  
 **Insight:**  
 Apps with over 5,000 reviews tend to stabilize near a 5-star rating. Apps with fewer reviews show more variability, indicating inconsistent user experiences in early stages.
 
 ---
 
-### 6. Most Visible Developers
+### 6. Most Visible Developers  
 ![Total Ratings](visualizations/sum_of_rating_by_developer.png)  
 **Insight:**  
 *Elfsight*, *Ginee*, and *Omega* dominate in total ratings, suggesting broad market exposure. However, high visibility doesn’t guarantee review helpfulness or satisfaction.
@@ -63,8 +63,8 @@ Apps with over 5,000 reviews tend to stabilize near a 5-star rating. Apps with f
 
 This analysis uncovers key levers of app success on Shopify:
 
-- Developers that engage with user feedback build trust but may do so in response to criticism
-- Apps with high review counts tend to stabilize at higher ratings
+- Developers that engage with user feedback build trust but may do so in response to criticism  
+- Apps with high review counts tend to stabilize at higher ratings  
 - The most helpful reviews are tied to developers offering strong UX and value
 
 These findings support data-driven decisions for developers, platform curators, and marketers aiming to optimize app store performance.
@@ -81,24 +81,24 @@ These findings support data-driven decisions for developers, platform curators, 
 
 ## 📚 Skills & Techniques Applied
 
-This project applied key Power BI skills from the Data Visualization & Dashboard sprint:
+This project applied key Power BI skills from the **Power BI Sprint**:
 
 ### 📥 Data Import & Modeling
-- Imported and connected multiple tables (`apps`, `apps_categories`, `categories`, and `reviews`)
+- Imported and connected multiple tables (`apps`, `apps_categories`, `categories`, and `reviews`)  
 - Built relationships to enable multi-table visual analysis
 
 ### 💡 DAX & Calculated Metrics
-- Created DAX measures using functions like `CALCULATE`, `RELATED`, and context-based filtering
+- Created DAX measures using functions like `CALCULATE`, `RELATED`, and context-based filtering  
 - Computed average ratings, review counts, and developer engagement metrics
 
 ### 📊 Visual Development
-- Built targeted visualizations to explore app popularity, responsiveness, and review trends
+- Built targeted visualizations to explore app popularity, responsiveness, and review trends  
 - Applied slicers and filters to make visuals dynamic and context-aware
 
 ### 🎨 Visual Design Best Practices
-- Applied consistent formatting, clear labels, and intuitive layouts
+- Applied consistent formatting, clear labels, and intuitive layouts  
 - Structured insights to clearly support stakeholder decision-making
 
 ---
 
-> 🚀 *Final project submission for Junior BI Analyst training with TripleTen.*
+> 🚀 *Final project submission for the **Power BI Sprint** in the TripleTen BI Program.*
