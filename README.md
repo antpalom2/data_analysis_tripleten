@@ -1,11 +1,11 @@
 # 📊 TripleTen Projects
 
-A collection of data analysis projects completed during the [TripleTen Data Analytics Bootcamp](https://tripleten.com).
+A portfolio of data analysis projects completed as part of the [TripleTen Business Intelligence Program](https://tripleten.com), demonstrating applied skills in Excel, Power BI, and Tableau.
 
 | 🚀 Project # | 📁 Title | 📝 Description |
-| :---------: | :----------------------------------------------- | :-------------------------------------------------------------------------------------------- |
-| 1 | [Ecommerce Funnel Retention Analysis](./ecommerce_funnel_retention_analysis) | Transformed raw user activity logs into funnel metrics and retention insights for an e-commerce platform. |
-| 2 | [Manhattan Vacation Rental Market Analysis](./manhattan_vacation_rental_market_analysis) | Analyzed Airbnb pricing, availability, and profitability across Manhattan neighborhoods using Power BI. |
-| 3 | [Shopify App Intelligence](./appstore_intelligence_shopify) | Investigated user reviews and app performance to uncover category trends and sentiment using Power BI. |
-| 4 | [Superstore Profitability Analysis](./super_store_profitability_analysis) | Built a Tableau dashboard to evaluate profit drivers and return rates across regions and categories. |
-| 5 | [Superstore Returns Analysis](./superstore_returns_analysis) | Analyzed product return patterns with Tableau to identify loss hotspots and optimize operations. |
+| :---------: | :----------------------------------------------- | :------------------------------------------------------------------------------------------------------------------ |
+| 1 | [E-Commerce Funnel & Retention Analysis](./ecommerce_funnel_retention_analysis) | Built Excel-based funnel and cohort analyses to identify user drop-off points and retention trends for an online store. |
+| 2 | [Manhattan Vacation Rental Market Analysis](./manhattan_vacation_rental_market_analysis) | Used Excel to analyze Airbnb data and recommend high-performing neighborhoods and property types for investment. |
+| 3 | [Shopify App Intelligence](./appstore_intelligence_shopify) | Leveraged Power BI and DAX to uncover patterns in developer engagement, review quality, and app store performance. |
+| 4 | [Superstore Profitability Analysis](./super_store_profitability_analysis) | Designed a Tableau dashboard to highlight high- and low-performing products, return trends, and regional sales insights. |
+| 5 | [Superstore Returns Analysis](./superstore_returns_analysis) | Created a multi-page Tableau story to analyze customer return behavior and recommend strategies for reducing product returns. |
