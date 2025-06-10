@@ -15,6 +15,28 @@ To identify key factors in app success on Shopify by analyzing:
 
 ---
 
+## 📚 Skills & Techniques Applied
+
+This project applied key Power BI skills from the **Power BI Sprint**:
+
+### 📥 Data Import & Modeling
+- Imported and connected multiple tables (`apps`, `apps_categories`, `categories`, and `reviews`)  
+- Built relationships to enable multi-table visual analysis
+
+### 💡 DAX & Calculated Metrics
+- Created DAX measures using functions like `CALCULATE`, `RELATED`, and context-based filtering  
+- Computed average ratings, review counts, and developer engagement metrics
+
+### 📊 Visual Development
+- Built targeted visualizations to explore app popularity, responsiveness, and review trends  
+- Applied slicers and filters to make visuals dynamic and context-aware
+
+### 🎨 Visual Design Best Practices
+- Applied consistent formatting, clear labels, and intuitive layouts  
+- Structured insights to clearly support stakeholder decision-making
+
+---
+
 ## 📊 Key Visualizations & Insights
 
 ### 1. Most Helpful Developers  
@@ -76,28 +98,6 @@ These findings support data-driven decisions for developers, platform curators, 
 - Power BI Desktop (Data Modeling & Visualizations)  
 - DAX (Calculated Fields)  
 - GitHub (Project Collaboration)
-
----
-
-## 📚 Skills & Techniques Applied
-
-This project applied key Power BI skills from the **Power BI Sprint**:
-
-### 📥 Data Import & Modeling
-- Imported and connected multiple tables (`apps`, `apps_categories`, `categories`, and `reviews`)  
-- Built relationships to enable multi-table visual analysis
-
-### 💡 DAX & Calculated Metrics
-- Created DAX measures using functions like `CALCULATE`, `RELATED`, and context-based filtering  
-- Computed average ratings, review counts, and developer engagement metrics
-
-### 📊 Visual Development
-- Built targeted visualizations to explore app popularity, responsiveness, and review trends  
-- Applied slicers and filters to make visuals dynamic and context-aware
-
-### 🎨 Visual Design Best Practices
-- Applied consistent formatting, clear labels, and intuitive layouts  
-- Structured insights to clearly support stakeholder decision-making
 
 ---
 
