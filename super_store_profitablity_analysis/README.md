@@ -98,4 +98,4 @@ By acting on these insights, the superstore can reduce waste, increase margins, 
 
 ---
 
-🚀 *Final project submission for Junior BI Analyst training.*
+🚀 *Final project submission for the Data Visualization with Tableau sprint at TripleTen.*
