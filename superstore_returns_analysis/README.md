@@ -2,7 +2,7 @@
 
 This project investigates the root causes of high return rates at a fictional Superstore. Using Tableau dashboards and story points, we analyze customer return behavior across products, locations, seasons, and customer segments. The objective is to present strategic insights that help reduce returns and improve profitability across departments and regions.
 
-📊 [View the Interactive Tableau Story](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/FinalStory)  
+📊 [View the Interactive Tableau Story](https://public.tableau.com/views/superstore_returns_analysis_17488407955700/SuperstoreReturnsKeyInsightsAcrossTimeRegionandCustomers)  
 📄 [Download Dataset (Excel)](https://practicum-content.s3.us-west-1.amazonaws.com/data-eng/remodeled/files/Superstore.xls?etag=4616d537c163874941cf5fc3c9002fa8)
 
 ---
@@ -12,8 +12,8 @@ This project investigates the root causes of high return rates at a fictional Su
 As part of the **Storytelling with Data** sprint in the TripleTen BI program, this project emphasized visual narrative design and stakeholder communication using Tableau. Key skills applied include:
 
 ### 🧠 Data-Driven Storytelling
-- Designed an end-to-end **Tableau story** across multiple dashboards
-- Used **dynamic filtering, color cues, and annotations** to build a clear narrative path
+- Designed an end-to-end **Tableau story** across multiple dashboards  
+- Used **dynamic filtering, color cues, and annotations** to build a clear narrative path  
 - Framed insights around key business questions (who, what, where, when, why)
 
 ### 📈 Visualization Techniques
@@ -73,9 +73,9 @@ By translating raw order and return data into interactive dashboards and compell
 
 ## ✅ Strategic Recommendations
 
-- **Improve product descriptions and customer support** for high-return categories.
-- **Localize return policies** and adjust shipping for high-return regions.
-- **Flag and engage with high-return customers** for retention or investigation.
+- **Improve product descriptions and customer support** for high-return categories.  
+- **Localize return policies** and adjust shipping for high-return regions.  
+- **Flag and engage with high-return customers** for retention or investigation.  
 - **Align campaigns with return trends** during peak seasons to minimize regret purchases.
 
 ---
