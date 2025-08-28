@@ -32,43 +32,43 @@ This project was completed as part of the **Data Visualization with Tableau** sp
 ## 📊 Key Visualizations & Insights  
 
 ### 1. Profits & Losses by Region and Sub-Category  
-![Profits & Losses](data_analysis_tripleten/super_store_profitability_analysis/profits_losses.png)  
+![Profits & Losses](visualizations/profits_losses.png)  
 **Insight:** Technology and Office Supplies are strong contributors to profit, while Furniture (especially Tables and Bookcases) shows consistent losses.  
 
 ---
 
 ### 2. Top 10 Most Profitable Products  
-![Top Products](data_analysis_tripleten/super_store_profitability_analysis/top_products.png)  
+![Top Products](visualizations/top_products.png)  
 **Insight:** A handful of products, such as the Canon imageCLASS, drive a disproportionate share of profits.  
 
 ---
 
 ### 3. Bottom 10 Products (Loss-Makers)  
-![Bottom Products](data_analysis_tripleten/super_store_profitability_analysis/bottom_products.png)  
+![Bottom Products](visualizations/bottom_products.png)  
 **Insight:** Certain products, such as the GBC DocuBind system, generate large losses and should be reevaluated.  
 
 ---
 
 ### 4. Average Profit vs. Return Rate (Sub-Category Level)  
-![Avg Profit vs Return Rate](data_analysis_tripleten/super_store_profitability_analysis/avg_profit_vs_return.png)  
+![Avg Profit vs Return Rate](visualizations/avg_profit_vs_return.png)  
 **Insight:** Products with both **low profit and high returns** are major liabilities; products like Copiers deliver strong profits despite returns.  
 
 ---
 
 ### 5. Customers with the Highest Return Rates  
-![Returns by Customer](data_analysis_tripleten/super_store_profitability_analysis/returns_by_customer.png)  
+![Returns by Customer](visualizations/returns_by_customer.png)  
 **Insight:** A small group of customers consistently return nearly all purchases (90–100% return rates).  
 
 ---
 
 ### 6. Products with the Highest Return Rates  
-![Returns by Product](data_analysis_tripleten/super_store_profitability_analysis/returns_by_product.png)  
+![Returns by Product](visualizations/returns_by_product.png)  
 **Insight:** Printers, phones, and furniture dominate the high-return list, pointing to potential vendor or quality issues.  
 
 ---
 
 ### 7. State & Seasonal Profitability Trends  
-![State Seasonality](data_analysis_tripleten/super_store_profitability_analysis/state_seasonality.png)  
+![State Seasonality](visualizations/state_seasonality.png)  
 **Insight:** Profitability varies by state and season. Indiana, Vermont, and Washington perform strongly in specific months, suggesting opportunities for seasonal promotions.  
 
 ---
