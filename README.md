@@ -10,4 +10,5 @@ A portfolio of data analysis projects completed as part of the [TripleTen Busine
 | 4 | [Superstore Profitability Analysis](./superstore_profitability_analysis) | Designed a Tableau dashboard to highlight high- and low-performing products, return trends, and regional sales insights. |
 | 5 | [Superstore Returns Analysis](./superstore_returns_analysis) | Created a multi-page Tableau story to analyze customer return behavior and recommend strategies for reducing product returns. |
 | 6 | [Zuber Ride-Sharing Analysis](./zuber_sql_analysis) | Applied SQL to analyze ride-sharing data, exploring trip volume, weather impacts, and key airport routes for business insights. |
-| 7 | [Restaurant Performance Analysis](./Restaurant_Performance_Analysis) | Explored restaurant transaction data to identify order trends, revenue drivers, and cuisine preferences, with Tableau dashboards and insights. |
+| 7 | [Restaurant Performance Analysis](./Restaurant_Performance_Analysis) | Used Tableau to visualize restaurant transaction data, uncovering order trends, revenue drivers, and cuisine preferences. |
+| 8 | 🏆 [Flight Booking Behavior & Completion Insights](./flight_booking_behavior_analysis) | Award-winning project (BIA Code Pudding, June 2025). Analyzed ~49K flight bookings with Tableau & Excel to uncover key factors behind booking completion. |
