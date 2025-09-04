@@ -9,3 +9,4 @@ A portfolio of data analysis projects completed as part of the [TripleTen Busine
 | 3 | [Shopify App Intelligence](./appstore_intelligence_shopify) | Leveraged Power BI and DAX to uncover patterns in developer engagement, review quality, and app store performance. |
 | 4 | [Superstore Profitability Analysis](./superstore_profitability_analysis) | Designed a Tableau dashboard to highlight high- and low-performing products, return trends, and regional sales insights. |
 | 5 | [Superstore Returns Analysis](./superstore_returns_analysis) | Created a multi-page Tableau story to analyze customer return behavior and recommend strategies for reducing product returns. |
+| 6 | [Zuber Ride-Sharing Analysis](./zuber_sql_analysis) | Applied SQL to analyze ride-sharing data, exploring trip volume, weather impacts, and key airport routes for business insights. |
